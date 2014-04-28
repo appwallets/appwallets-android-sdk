@@ -52,6 +52,15 @@ layout/web_view.xml
 values/dimens.xml
 
 
+Call appWallet
+--
+
+```java
+Intent myIntent = new Intent(MainActivity.this, WebViewActivity.class);
+MainActivity.this.startActivity(myIntent);
+			
+			
+```
 
 
 
