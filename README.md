@@ -7,6 +7,8 @@ Usages
 
 in AndroidManifest.xml
 
+three Permission, two Activities and anum
+
 ```javascript
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -40,10 +42,13 @@ copy files to your project:
 
 
 res/drawable/*xml
+
 res/drawable-xhdpi/*.png
 
 layout/video_view.xml
+
 layout/web_view.xml
+
 values/dimens.xml
 
 
