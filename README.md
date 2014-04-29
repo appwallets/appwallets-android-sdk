@@ -1,15 +1,24 @@
 appwallets-android-sdk
 ======================
-copy appwalletsAndroidSDK.jar into your project libs
 
-Usages
---
+appwallets-android-sdk see (http://www.appwallets.com/) for more information.
 
-in AndroidManifest.xml
+##Installation
+- copy `appwalletsAndroidSDK.jar` into your project libs
 
-three Permission, two Activities and anum
 
+- copy Resource files to your project:
 ```javascript
+res/drawable/*xml
+res/drawable-xhdpi/*.png
+layout/video_view.xml
+layout/web_view.xml
+values/dimens.xml
+```
+
+- add Permissions, Activities and anum in `AndroidManifest.xml`
+
+```xml
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -34,21 +43,7 @@ three Permission, two Activities and anum
     
 ```
 
-
-
-Resource files:
-
-copy files to your project:
-
-
-	res/drawable/*xml
-	res/drawable-xhdpi/*.png
-	layout/video_view.xml
-	layout/web_view.xml
-	values/dimens.xml
-
-
-Call appWallet
+Usages
 --
 
 ```java
