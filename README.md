@@ -41,15 +41,11 @@ Resource files:
 copy files to your project:
 
 
-res/drawable/*xml
-
-res/drawable-xhdpi/*.png
-
-layout/video_view.xml
-
-layout/web_view.xml
-
-values/dimens.xml
+	res/drawable/*xml
+	res/drawable-xhdpi/*.png
+	layout/video_view.xml
+	layout/web_view.xml
+	values/dimens.xml
 
 
 Call appWallet
