@@ -73,7 +73,6 @@ public class MainActivity extends ActionBarActivity {
 		public void onClick(View v) {
 			//Toast.makeText(MainActivity.this, "asdf", Toast.LENGTH_SHORT).show();
 			Intent myIntent = new Intent(MainActivity.this, WebViewActivity.class);
-			//myIntent.putExtra("key", "111"); //Optional parameters
 			MainActivity.this.startActivity(myIntent);
 		}
 	};
